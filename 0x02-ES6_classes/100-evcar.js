@@ -6,7 +6,10 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
-  static get [Symbol.species]() {
-    return Car;
+  cloneCar() {
+    if (this._brand) {
+      return new Car();
+    }
+    return new Car();
   }
 }
