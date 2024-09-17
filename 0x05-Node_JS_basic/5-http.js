@@ -1,5 +1,5 @@
 const http = require('http');
-const fs = require('fs').promises;
+const countStudents = require('./3-read_file_async')
 
 const hostname = 'localhost';
 const port = 1245;
