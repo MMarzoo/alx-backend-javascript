@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+
+/* reading files async */
+/* eslint-disable no-unused-vars */
+
 const { promisify } = require('util');
 const { readFile } = require('fs');
 
