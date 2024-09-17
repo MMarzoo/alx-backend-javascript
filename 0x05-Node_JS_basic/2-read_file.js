@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/* a simple script to practice reading files */
+
 const fs = require('fs');
 
 function filterByGroup(group, dataset) {
